@@ -1,0 +1,31 @@
+{
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+
+  "javascript.suggest.autoImports": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "nuxt.isNuxtApp": false,
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "editor.semanticHighlighting.enabled": false,
+
+  "editor.tabSize": 2,
+}
